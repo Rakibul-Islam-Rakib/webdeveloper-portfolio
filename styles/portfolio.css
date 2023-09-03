@@ -65,10 +65,9 @@ nav a {
 /* header styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
-    \
+    background-position: bottom right, left;
 
 }
 
@@ -118,6 +117,10 @@ main {
     margin: 0 auto;
 }
 
+section {
+    margin-top: 130px;
+}
+
 /* about section styles */
 .about {
     padding: 130px;
@@ -147,4 +150,31 @@ main {
     color: var #474747;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* what-i-do section styles */
+
+.skills-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+
+}
+
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
 }
